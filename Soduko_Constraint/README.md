@@ -1,0 +1,2 @@
+Sudoku as a Constraint Satisfaction Problem
+Implement backtracking search with forward checking to solve Sudoku puzzles (see this lecture). Use the minimum remaining values (MRV) heuristic for choosing the next variable to assign. Forward checking should take the following simple form: every time you assign a value to a variable, eliminate that value from the list of possible values for the variables in the same row, column, and 3x3 unit. If the list of possible values for any variable becomes empty, report failure and backtrack. 
